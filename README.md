@@ -5,3 +5,11 @@
 *Access to clean drinking water is critical to health, a basic human right, and a component of any health-protection strategy.*
 
 *This Projects therefore is to predict if water is potable based on some water qualty parameters*
+
+**Methodology**
+
+1. Pandas was used to read in the data and do data cleaning
+2. Seaborn was used for Exploratory Data Analysis and to visualize the correlation between dependent and independent variables
+3. Support Vector Machine, KNN, Logistic regression, and DecisionTree were the model used
+4. GridSearchCV was used for hyperparameter Tuning
+5. The best performing model is SVM
